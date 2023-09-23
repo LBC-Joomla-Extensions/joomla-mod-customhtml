@@ -1,0 +1,37 @@
+{
+  "name": "joomla-mod-customhtml",
+  "version": "1.0.0",
+  "description": "Módulo para añadir html sin restricciones, incluyendo iframes y scripts",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "watch": "webpack --config webpack.config.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LBC-Joomla-Extensions/joomla-mod-customhtml.git"
+  },
+  "keywords": [],
+  "author": "Luis Breña Calvo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LBC-Joomla-Extensions/joomla-mod-customhtml.git/issues"
+  },
+  "homepage": "https://github.com/LBC-Joomla-Extensions/joomla-mod-customhtml.git#readme",
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@babel/polyfill": "^7.10.1",
+    "@babel/preset-env": "^7.19.4",
+    "babel-loader": "^9.1.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.1",
+    "mini-css-extract-plugin": "^2.6.1",
+    "sass": "^1.55.0",
+    "sass-loader": "^13.1.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^5.1.4",
+    "zip-webpack-plugin": "^4.0.1"
+  }
+}

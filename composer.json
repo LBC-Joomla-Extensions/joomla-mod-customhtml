@@ -1,0 +1,13 @@
+{
+    "name": "lbc/joomla-mod-customhtml",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Luis BC",
+            "email": "luinux81@gmail.com"
+        }
+    ],
+    "require": {
+        "dickinsonjl/lorum": "dev-master"
+    }
+}

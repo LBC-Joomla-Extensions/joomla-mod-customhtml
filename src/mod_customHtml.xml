@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.0" client="site" method="upgrade">
+    <name>Modulo Custom HTML</name>
+    <author>Luis BC</author>
+    <version>1.0.0</version>
+    <description>Módulo para añadir html sin restricciones, incluyendo iframes y scripts</description>
+    <files>
+        <filename>mod_customHtml.xml</filename>
+        <filename module="mod_customHtml">mod_customHtml.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <folder>css</folder>
+        <folder>js</folder>
+        <folder>vendor</folder>
+        <folder>tmpl</folder>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field 
+                    name="html" 
+                    type="textarea"                  
+                    row="25"
+                    label="HTML" 
+                    description="Código HTML para mostrar en el módulo"
+                    filter="raw"
+                >
+		        </field>
+            </fieldset>
+        </fields>
+    </config>
+</extension>
