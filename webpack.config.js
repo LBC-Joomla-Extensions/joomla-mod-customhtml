@@ -53,8 +53,8 @@ module.exports = {
                 { from: path.resolve(__dirname,"vendor"), to: "vendor" },
                 { from: "./src/index.html", to: "index.html" },
                 { from: "./src/helper.php", to: "helper.php" },
-                { from: "./src/mod_customHtml.php", to: "mod_customHtml.php" },
-                { from: "./src/mod_customHtml.xml", to: "mod_customHtml.xml" },                
+                { from: "./src/mod_customhtml.php", to: "mod_customhtml.php" },
+                { from: "./src/mod_customhtml.xml", to: "mod_customhtml.xml" },                
             ],
         }),
         new ZipPlugin({

@@ -5,5 +5,5 @@ defined("_JEXEC") or die;
 require_once __DIR__ . "/helper.php";
 
 //Cargar la vista por defecto del módulo
-require JModuleHelper::getLayoutPath("mod_customHtml");
+require JModuleHelper::getLayoutPath("mod_customhtml");
 ?>

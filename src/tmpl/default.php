@@ -2,8 +2,8 @@
 defined("_JEXEC") or die;
 
 $doc=JFactory::getDocument();
-$doc->addStyleSheet(JURI::base() . "./modules/mod_customHtml/css/main.css");
-$doc->addScript(JURI::base() . "./modules/mod_customHtml/js/main.js","text/javascript");
+$doc->addStyleSheet(JURI::base() . "./modules/mod_customhtml/css/main.css");
+$doc->addScript(JURI::base() . "./modules/mod_customhtml/js/main.js","text/javascript");
 
 require_once __DIR__ . "/../helper.php";
 
